@@ -1,0 +1,67 @@
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+
+$ git branch
+* main
+  newbranch
+
+
+$ git log
+commit baf942d1a47469ded57004647448fcf30aedb0a4 (HEAD -> main, origin/main)
+Author: Maksym <studvmaks@gmail.com>
+Date:   Fri Oct 23 10:12:19 2026 +0300
+
+    add new_file.txt with initial content
+
+commit be0826d3534e13ead39e4ea69c2c2fc36d70db5a
+Merge: 741d4bd c8aabcb
+Author: MaksoonV <studvmaks@gmail.com>
+Date:   Fri Oct 23 10:10:10 2026 +0300
+
+    merge
+
+commit 741d4bdae3803987868198156d375adcfd611f64
+Author: MaksoonV <studvmaks@gmail.com>
+Date:   Fri Oct 23 10:08:52 2026 +0300
+
+    edited my hope
+
+commit f52f226821c7b2c110b01f783e6b69a759ae2f30
+Author: MaksoonV <studvmaks@gmail.com>
+Date:   Fri Oct 23 10:07:49 2026 +0300
+
+    also renamed
+
+commit c8aabcbb186e0ec85e37c4f460aac98d6d94692e (origin/newbranch, origin/HEAD, newbranch)
+Author: MaksoonV <studvmaks@gmail.com>
+Date:   Fri Oct 23 10:05:34 2026 +0300
+
+    deleted old file
+
+commit 51a6ad7bc570a6edd809aa6ddfe23ea0a5d412e7
+Author: MaksoonV <studvmaks@gmail.com>
+Date:   Fri Oct 23 10:03:49 2026 +0300
+
+    edited name file
+
+commit 787e952d041f2172599e458732f059f7408466ea
+Author: MaksoonV <studvmaks@gmail.com>
+Date:   Fri Oct 23 10:02:32 2026 +0300
+
+    edited text.txt
+
+commit f0056837669c772baaad2fb92d4be4970d329cc1
+Author: MaksoonV <studvmaks@gmail.com>
+Date:   Fri Oct 23 10:00:00 2026 +0300
+
+    created text.txt and print my hope in
+
+
+$ git log --merges
+commit be0826d3534e13ead39e4ea69c2c2fc36d70db5a
+Merge: 741d4bd c8aabcb
+Author: MaksoonV <studvmaks@gmail.com>
